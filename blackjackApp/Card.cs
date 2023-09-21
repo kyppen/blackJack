@@ -48,6 +48,11 @@ public class Card{
         return _type;
     }
 
+    public string getValueString()
+    {
+        return _value;
+    }
+
     public string ToString()
     {
         return _value + " of " + _type;
