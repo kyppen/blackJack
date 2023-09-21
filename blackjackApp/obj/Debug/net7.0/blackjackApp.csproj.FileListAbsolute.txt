@@ -1,0 +1,15 @@
+/home/fam/RiderProjects/blackjackApp/blackjackApp/bin/Debug/net7.0/blackjackApp
+/home/fam/RiderProjects/blackjackApp/blackjackApp/bin/Debug/net7.0/blackjackApp.deps.json
+/home/fam/RiderProjects/blackjackApp/blackjackApp/bin/Debug/net7.0/blackjackApp.runtimeconfig.json
+/home/fam/RiderProjects/blackjackApp/blackjackApp/bin/Debug/net7.0/blackjackApp.dll
+/home/fam/RiderProjects/blackjackApp/blackjackApp/bin/Debug/net7.0/blackjackApp.pdb
+/home/fam/RiderProjects/blackjackApp/blackjackApp/obj/Debug/net7.0/blackjackApp.csproj.AssemblyReference.cache
+/home/fam/RiderProjects/blackjackApp/blackjackApp/obj/Debug/net7.0/blackjackApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/fam/RiderProjects/blackjackApp/blackjackApp/obj/Debug/net7.0/blackjackApp.AssemblyInfoInputs.cache
+/home/fam/RiderProjects/blackjackApp/blackjackApp/obj/Debug/net7.0/blackjackApp.AssemblyInfo.cs
+/home/fam/RiderProjects/blackjackApp/blackjackApp/obj/Debug/net7.0/blackjackApp.csproj.CoreCompileInputs.cache
+/home/fam/RiderProjects/blackjackApp/blackjackApp/obj/Debug/net7.0/blackjackApp.dll
+/home/fam/RiderProjects/blackjackApp/blackjackApp/obj/Debug/net7.0/refint/blackjackApp.dll
+/home/fam/RiderProjects/blackjackApp/blackjackApp/obj/Debug/net7.0/blackjackApp.pdb
+/home/fam/RiderProjects/blackjackApp/blackjackApp/obj/Debug/net7.0/blackjackApp.genruntimeconfig.cache
+/home/fam/RiderProjects/blackjackApp/blackjackApp/obj/Debug/net7.0/ref/blackjackApp.dll
