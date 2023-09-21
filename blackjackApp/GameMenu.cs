@@ -8,16 +8,16 @@ public class GameMenu{
     {
         bool gameRunning = true;
         Console.WriteLine("Starting game");
+        DeckHandler deck = new DeckHandler();
+        Player player = new Player();
+        deck.makeDeck();
+        deck.shuffleDeck();
         while (gameRunning)
         {
-            DeckHandler deck = new DeckHandler();
-            Player player = new Player();
-            deck.makeDeck();
-            deck.shuffleDeck();
             if (player.handValue() >= 21)
-            {
-                gameRunning = false;
-                Console.WriteLine("HandValue exceeded 21 " + player.handValue());
+            { 
+                Console.WriteLine("HandValue exceeded 21 || " + player.handValue());
+                break;
             }
 
             if (player.EmptyHand())
@@ -28,17 +28,20 @@ public class GameMenu{
 
             bool choiceMade = false; 
             
-            Console.WriteLine("Give me input");
+            Console.WriteLine("Hit or Stand?");
             string answer = Console.ReadLine();
-            Console.WriteLine(answer);
+            
             if (answer.ToLower() == "hit")
             {
                 Console.WriteLine("HIT!");
+                player.givePlayerCard(deck.drawCard());
+                Console.WriteLine("Current hand value : " + player.handValue());
             }
 
             if (answer.ToLower() == "stand")
             {
                 Console.WriteLine("Stand");
+                
             }
 
         } ;
